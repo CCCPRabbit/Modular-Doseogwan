@@ -1,0 +1,1 @@
+KICAD Schematic Library. licensed under the Creative Commons CC-BY-SA 4.0 License.

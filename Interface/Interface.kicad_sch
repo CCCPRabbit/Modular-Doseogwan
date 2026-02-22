@@ -1,0 +1,1142 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "858f0cf2-d018-4ac7-87a7-a73649fabfa9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 50.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5d4201-b362-48d7-aa63-b4679e2662e9")
+	)
+	(junction
+		(at 53.34 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98cc4e7-b491-4435-94b4-205959441075")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d75d10e-2e81-4fe6-8394-719680e7ae61")
+	)
+	(wire
+		(pts
+			(xy 43.18 86.36) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198123e-d754-48bd-ac3f-63fa381be76f")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dac616d-bef9-4db2-8f39-e5af479b2dce")
+	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22feeecf-c7ac-416e-8974-3a15e626f6ee")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25237797-bb39-4be0-b612-941b48d1c7b6")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2537842b-e1cc-4874-a7b4-f90e5f985713")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40951af0-8f80-4894-8311-d55ef2f5155f")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 55.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545bf363-eb32-473e-871c-63dcb5b85805")
+	)
+	(wire
+		(pts
+			(xy 43.18 111.76) (xy 55.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823d2719-793d-4df2-8abb-f83e37288ef7")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 53.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851f0a88-5cc3-463f-871d-bf90428ff8e0")
+	)
+	(wire
+		(pts
+			(xy 53.34 82.55) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef3f69d-11fb-48ed-9df6-f01b9add97ca")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c024ffda-2787-46e7-beaf-e63de407ace6")
+	)
+	(wire
+		(pts
+			(xy 53.34 106.68) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06f10d2-3cad-43a3-b4f3-bb173793260b")
+	)
+	(wire
+		(pts
+			(xy 53.34 86.36) (xy 55.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1a0647-dfb2-457c-ab00-7ed9d3de54be")
+	)
+	(label "DE0"
+		(at 48.26 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "575c515d-c297-488b-b0a2-aa956ac0c893")
+	)
+	(label "RE1"
+		(at 48.26 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e70d88-cf48-479b-a8e1-97e8382d0b31")
+	)
+	(label "TXD"
+		(at 48.26 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81262ae9-0b77-4de3-a1f1-ecbf246276fc")
+	)
+	(label "RXD"
+		(at 48.26 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92287746-02da-4061-b84c-ae10aee6bd96")
+	)
+	(label "RE0"
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b29688c6-c34d-4292-88b9-815d57ca7e55")
+	)
+	(label "DE1"
+		(at 48.26 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9181df9-b68c-40f3-93f0-212c2f122afb")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b87b585-e5a5-4314-8395-bec14aa6a0ae")
+		(property "Reference" "R1"
+			(at 55.88 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 55.88 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 51.562 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7193344a-5b22-4321-8229-ce38cf4d3f2d")
+		)
+		(pin "2"
+			(uuid "07c0e415-c7d6-4ed8-9cab-9038f0c36cf2")
+		)
+		(instances
+			(project ""
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757c92f5-6dc9-445e-a728-b73e60695031")
+		(property "Reference" "#PWR01"
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c12a6c92-e3be-4979-b98f-af2dbaddbc65")
+		)
+		(instances
+			(project ""
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 83.82)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4735312e-a0c4-4521-94c7-737ff9672443")
+		(property "Sheetname" "MAX485_DERE0"
+			(at 55.88 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX485_DERE.kicad_sch"
+			(at 55.88 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DE" input
+			(at 55.88 88.9 180)
+			(uuid "ccac5e26-385a-46a1-9296-8c611e1f4639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE" input
+			(at 55.88 91.44 180)
+			(uuid "3317c21b-5cb8-4478-b72c-8926f7bca8cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485 A" bidirectional
+			(at 73.66 88.9 0)
+			(uuid "9607e1f0-3739-4bc1-9f78-1e1a1d19a795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485 B" bidirectional
+			(at 73.66 91.44 0)
+			(uuid "bd6959d8-8103-4369-97b8-8750daadab6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" output
+			(at 55.88 86.36 180)
+			(uuid "67634eee-302d-41f7-b52c-b8f2001016ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 55.88 93.98 180)
+			(uuid "9b1952e4-1140-4406-8a0d-d6de52ee5516")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 104.14)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "978e28f7-796c-4e6a-8c7f-5b2c82570c6a")
+		(property "Sheetname" "MAX485_DERE1"
+			(at 55.88 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX485_DERE.kicad_sch"
+			(at 55.88 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DE" input
+			(at 55.88 109.22 180)
+			(uuid "7432943a-6302-4a72-9567-3d24dc0bc7b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RE" input
+			(at 55.88 111.76 180)
+			(uuid "08347cf5-3f23-47c2-b175-066407e1bef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485 A" bidirectional
+			(at 73.66 109.22 0)
+			(uuid "53596995-388f-46e1-93eb-8d202962bc7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485 B" bidirectional
+			(at 73.66 111.76 0)
+			(uuid "b7c17145-c6c0-4da4-946d-9d383862dc21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" output
+			(at 55.88 106.68 180)
+			(uuid "1688fd7b-f461-4018-bdeb-594b9c542418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" input
+			(at 55.88 114.3 180)
+			(uuid "63ba7bec-aa16-4f83-8821-25e80418d493")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 50.8)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf1333d8-54cd-478f-ae86-d93cd3c442c1")
+		(property "Sheetname" "MAX485_DE"
+			(at 55.88 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX485.kicad_sch"
+			(at 55.88 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 55.88 53.34 180)
+			(uuid "1a8c505e-ea13-4a5e-8121-614ff6d40d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485 A" bidirectional
+			(at 73.66 53.34 0)
+			(uuid "6f6bdc9a-a559-41d3-aa1f-e807d302309e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485 B" bidirectional
+			(at 73.66 58.42 0)
+			(uuid "b8bb2d6f-0e7d-4eae-b3aa-6f40273a433d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 55.88 58.42 180)
+			(uuid "69834897-1293-4f82-be59-3b74614290e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DE" input
+			(at 55.88 55.88 180)
+			(uuid "10c29429-973a-4f42-a064-903d7492002c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 20.32 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6626d95-7b22-411c-94c9-274d2ced3673")
+		(property "Sheetname" "AD9834"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AD9834.kicad_sch"
+			(at 127 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CS" input
+			(at 127 83.82 180)
+			(uuid "b73541a7-4a89-48d0-9d7d-a8a98977dd90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FSELECT" input
+			(at 127 93.98 180)
+			(uuid "4bb3e5f5-4ef2-46d1-a117-df6cc917efdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IOUT" output
+			(at 147.32 86.36 0)
+			(uuid "2fc6707c-8fd5-4fda-958e-395f435c21bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IOUTB" output
+			(at 147.32 88.9 0)
+			(uuid "c9715a06-5880-4fb9-ab32-6d9990b16833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 127 81.28 180)
+			(uuid "08f16ba1-fda0-4b8a-a442-a330469e023a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSELECT" input
+			(at 127 91.44 180)
+			(uuid "18930c3a-6d7b-4ea3-8ead-caec53fd52f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 127 86.36 180)
+			(uuid "1e536a49-6a7e-4067-8b3b-7e442494795a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 127 78.74 180)
+			(uuid "c1b2543d-84e7-4521-8bca-b2af0d48e337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SLEEP" input
+			(at 127 88.9 180)
+			(uuid "836748c7-7d4b-449a-93fb-ad53f1bee7e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FULL SCALE" input
+			(at 127 101.6 180)
+			(uuid "bb80e9f1-af58-4c82-9f52-712471426e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCLK" input
+			(at 127 96.52 180)
+			(uuid "8333a3fb-b35c-48c3-b81d-0dfeb151c9ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 15.24 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e375457e-cbd6-47fc-b124-d70be7e6f0fe")
+		(property "Sheetname" "FT232RL"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FT232RL.kicad_sch"
+			(at 127 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 142.24 27.94 0)
+			(uuid "8a115449-ff39-4672-9891-7d8130d396cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 142.24 30.48 0)
+			(uuid "db1f3756-6705-4227-9a61-99f47fbe9df0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBDM" bidirectional
+			(at 127 27.94 180)
+			(uuid "b6013a49-18a4-434d-bea5-96cb11d660ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBDP" bidirectional
+			(at 127 30.48 180)
+			(uuid "e097ac79-422e-4667-adb9-72175cd00d45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

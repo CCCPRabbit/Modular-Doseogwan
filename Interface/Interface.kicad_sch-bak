@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "858f0cf2-d018-4ac7-87a7-a73649fabfa9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 45.72 17.78)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf1333d8-54cd-478f-ae86-d93cd3c442c1")
+		(property "Sheetname" "MAX485"
+			(at 45.72 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX485.kicad_sch"
+			(at 45.72 23.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e375457e-cbd6-47fc-b124-d70be7e6f0fe")
+		(property "Sheetname" "FT232RL"
+			(at 17.78 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FT232RL.kicad_sch"
+			(at 17.78 23.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Interface"
+				(path "/858f0cf2-d018-4ac7-87a7-a73649fabfa9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

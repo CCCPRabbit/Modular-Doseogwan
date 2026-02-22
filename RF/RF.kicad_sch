@@ -1,0 +1,240 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "349e4123-9f5e-4c99-a905-a0f022f55c33")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0639011d-f2f3-4792-b705-e239570c6e81")
+	)
+	(sheet
+		(at 53.34 25.4)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d01b425d-c0c8-4f27-8e62-dafde41658e3")
+		(property "Sheetname" "2450AT18B0100001"
+			(at 53.34 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2450AT18B0100001.kicad_sch"
+			(at 53.34 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF" bidirectional
+			(at 53.34 27.94 180)
+			(uuid "2253b51c-db8a-481f-8064-9c70408f0e17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RF"
+				(path "/349e4123-9f5e-4c99-a905-a0f022f55c33"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 20.32)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e23c4b92-0a39-44c9-aab8-dcfe1993be27")
+		(property "Sheetname" "nRF24L01P"
+			(at 20.32 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nRF24L01P.kicad_sch"
+			(at 20.32 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" input
+			(at 20.32 33.02 180)
+			(uuid "412556f2-2597-4247-94cd-5dfe6b4c14de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSN" input
+			(at 20.32 30.48 180)
+			(uuid "d8b5f87c-49f2-4c77-aadc-53ea70ee67ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IRQ" output
+			(at 20.32 35.56 180)
+			(uuid "2f84b1ff-b56b-4521-90c5-28d14ad28102")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 20.32 25.4 180)
+			(uuid "f0c594ed-5664-4096-a597-b3d86a0e6d0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 20.32 22.86 180)
+			(uuid "2868291f-2d5c-4726-bf25-0065bf26bcf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF" bidirectional
+			(at 33.02 27.94 0)
+			(uuid "de812dbf-38df-4231-b949-b9851092240c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 20.32 27.94 180)
+			(uuid "c97b1ea3-976c-417f-a151-0044cfa8b980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RF"
+				(path "/349e4123-9f5e-4c99-a905-a0f022f55c33"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 35.56)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea7f8395-2e75-4485-882a-59b85e109964")
+		(property "Sheetname" "2450AT18A0100001"
+			(at 53.34 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2450AT18A0100001.kicad_sch"
+			(at 53.34 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RF" bidirectional
+			(at 53.34 38.1 180)
+			(uuid "d8dacf4a-e707-4213-826d-7b41eae64703")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "RF"
+				(path "/349e4123-9f5e-4c99-a905-a0f022f55c33"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

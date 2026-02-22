@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cede03d3-d449-4d78-a624-c9af150034d6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 99.06 53.34)
+		(size 15.24 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a99693e6-75d3-4a06-b594-ea6e8667efcc")
+		(property "Sheetname" "L298N"
+			(at 99.06 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "L298N.kicad_sch"
+			(at 99.06 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EnA" input
+			(at 99.06 60.96 180)
+			(uuid "879d2f8f-7b82-483d-b4b7-7ec20e41307a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EnB" input
+			(at 99.06 71.12 180)
+			(uuid "50faea1f-4d59-4e57-a3e5-9fe140057811")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 99.06 55.88 180)
+			(uuid "bbf5d13c-9c3b-4eec-8334-532b3c64fe66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 99.06 58.42 180)
+			(uuid "b67b1311-eea1-4a8e-8624-347a03a5c999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 99.06 66.04 180)
+			(uuid "f7849e99-a5c0-40b3-a551-e1af3bfddcb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 99.06 68.58 180)
+			(uuid "3223dbc4-4342-4664-95b9-8fc157e0f590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT1" output
+			(at 114.3 55.88 0)
+			(uuid "c7592048-088c-455d-821e-b0ffe5d1d8db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 114.3 58.42 0)
+			(uuid "1be24b11-fef3-42c3-bde9-3c93f7d1845d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT3" output
+			(at 114.3 66.04 0)
+			(uuid "a364f99e-1a55-4fbf-9ef8-1e30ec89df2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT4" output
+			(at 114.3 68.58 0)
+			(uuid "2de4f49e-4d96-40b6-b946-f818171c140d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SENSE_A" output
+			(at 99.06 76.2 180)
+			(uuid "1c9ad747-0cd7-444b-ae1e-b0e00655481e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSE_B" output
+			(at 99.06 78.74 180)
+			(uuid "ba9d61ee-330b-43cb-9b83-8d018cb3a1c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/cede03d3-d449-4d78-a624-c9af150034d6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

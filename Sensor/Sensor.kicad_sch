@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5becba99-daa7-4df3-aab4-525a6d3f75c8")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 96.52 55.88)
+		(size 15.24 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e44eddfc-8434-426d-b06d-f368d108ffba")
+		(property "Sheetname" "AS5311 5V"
+			(at 96.52 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AS5311 5V.kicad_sch"
+			(at 96.52 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" output
+			(at 111.76 68.58 0)
+			(uuid "4d160766-62b0-445c-9e19-222802a0f95c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B" output
+			(at 111.76 71.12 0)
+			(uuid "ce5244ed-d9f5-448f-85c7-74bbd147634e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 111.76 81.28 0)
+			(uuid "c61f6f4e-2ee8-4963-8669-eba13d59c3cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSn" input
+			(at 111.76 83.82 0)
+			(uuid "6364bcea-468c-4480-8f72-a77260d01e3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DO" output
+			(at 111.76 78.74 0)
+			(uuid "6b5accc3-2d12-4c02-a076-003a75525ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Index" output
+			(at 111.76 73.66 0)
+			(uuid "7f858e42-12f0-4e5f-b855-6be5217eb789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MagDECn" output
+			(at 111.76 58.42 0)
+			(uuid "be7749c2-b3eb-42bb-a931-274cd2bc3aa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MagINCn" output
+			(at 111.76 60.96 0)
+			(uuid "6f489e40-1498-435f-be34-250503f803c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM" output
+			(at 111.76 66.04 0)
+			(uuid "0c9fd131-b767-4d3f-aead-e5ff51d88050")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sensor"
+				(path "/5becba99-daa7-4df3-aab4-525a6d3f75c8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
