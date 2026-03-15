@@ -449,7 +449,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "-- 最近使用したもの --"
+      "-- 最近使用したもの --",
+      "Driver_MODDSG"
     ]
   },
   "meta": {
@@ -619,6 +620,10 @@
     [
       "a99693e6-75d3-4a06-b594-ea6e8667efcc",
       "L298N"
+    ],
+    [
+      "d8efb64c-4c81-4e13-ae0c-f5772be47b38",
+      "A4988"
     ]
   ],
   "text_variables": {}

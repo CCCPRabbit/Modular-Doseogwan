@@ -167,6 +167,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 190.5 78.74)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8efb64c-4c81-4e13-ae0c-f5772be47b38")
+		(property "Sheetname" "A4988"
+			(at 190.5 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A4988.kicad_sch"
+			(at 190.5 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Driver"
+				(path "/cede03d3-d449-4d78-a624-c9af150034d6"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
