@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a59e34a9-7284-4980-8519-71cb62723b59")
+	(paper "A4")
+	(title_block
+		(title "Battery Management")
+		(date "2026-05-09")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 101.6 73.66)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bf2bff4-ef57-4fe1-8d85-a4cd80a2700b")
+		(property "Sheetname" "MCP73831"
+			(at 101.6 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCP73831.kicad_sch"
+			(at 101.6 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f/cacd9ef4-0cf0-49d4-90d1-1af83d581471"
+					(page "12")
+				)
+			)
+		)
+	)
+)

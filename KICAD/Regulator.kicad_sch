@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2799a1e5-339b-4215-97a6-2e740abb81fc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 55.88 55.88)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18493678-f7ae-481d-94b6-805f19bdcee7")
+		(property "Sheetname" "LM1117"
+			(at 55.88 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LM1117.kicad_sch"
+			(at 55.88 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f/5d274005-2b7b-4dfc-a2aa-fc2e1b43e1a1"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 73.66)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3afef9cb-614e-40aa-b0b9-4a5c1b704104")
+		(property "Sheetname" "RT6150"
+			(at 55.88 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RT6150.kicad_sch"
+			(at 55.88 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f/5d274005-2b7b-4dfc-a2aa-fc2e1b43e1a1"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 83.82)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c7e3396-771d-4148-b079-4cf9b8789edf")
+		(property "Sheetname" "TPS79328"
+			(at 55.88 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TPS79328.kicad_sch"
+			(at 55.88 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f/5d274005-2b7b-4dfc-a2aa-fc2e1b43e1a1"
+					(page "25")
+				)
+			)
+		)
+	)
+)

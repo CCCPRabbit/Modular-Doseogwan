@@ -1,0 +1,1 @@
+This file has been modified for use with FatFS by ChaN. All rights to this program remain with the original copyright holder.

@@ -1,0 +1,397 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "12b89275-ba96-4742-9209-cca9e7e75e0f")
+	(paper "A4")
+	(title_block
+		(title "main")
+		(date "2026-05-06")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 127 66.04)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f1912ba-409c-41b5-b6a0-01be849f80c8")
+		(property "Sheetname" "Connector"
+			(at 127 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 127 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d274005-2b7b-4dfc-a2aa-fc2e1b43e1a1")
+		(property "Sheetname" "Regulator"
+			(at 127 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Regulator.kicad_sch"
+			(at 127 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 116.84)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b57c28a-cffe-40a5-813b-c9a1e9a48f68")
+		(property "Sheetname" "Sensor"
+			(at 127 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor.kicad_sch"
+			(at 127 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 86.36)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b436a23f-c2e9-4517-8963-7e14d1469b8f")
+		(property "Sheetname" "Interface"
+			(at 127 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 127 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 55.88)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cacd9ef4-0cf0-49d4-90d1-1af83d581471")
+		(property "Sheetname" "Battery_Management"
+			(at 127 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery_Management.kicad_sch"
+			(at 127 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 45.72)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cca32103-9706-4607-bb68-80bc1f3a4fee")
+		(property "Sheetname" "Amplifier_Audio"
+			(at 127 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier_Audio.kicad_sch"
+			(at 127 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 106.68)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9b72ee3-6809-414c-b10c-0709963f3972")
+		(property "Sheetname" "RF"
+			(at 127 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 127 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e19414c2-b9c8-48fb-913d-fdfee3560ed7")
+		(property "Sheetname" "Driver"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver.kicad_sch"
+			(at 127 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 96.52)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e90670f6-7460-438a-9b42-96885c084fa7")
+		(property "Sheetname" "MCU"
+			(at 127 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

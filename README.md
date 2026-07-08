@@ -1,3 +1,21 @@
-KICAD Schematic-source code Library. licensed under the Creative Commons CC-BY-SA 4.0 License.
-KICAD Schematic A4988, L298N, AD9834, FT232RL, MAX485, ATmega328P, 2450AT18A0100001, 2450AT18B0100001, nRF24L01P, AS5311
-source code AVR USART, SPI, nRF24L01P
+# Modular Doseogwan
+
+## Introduction
+
+This project includes KiCad symbols, schematics, and program libraries.
+
+## Contents
+
+- KiCad Symbols
+- Schematics
+- Program Libraries
+
+## License
+
+This project is licensed under **CC-BY-NC-SA 4.0**.
+
+- **BY** (Attribution): You must give appropriate credit to the original author.
+- **NC** (NonCommercial): You may not use the material for commercial purposes.
+- **SA** (ShareAlike): If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+For more details, see the [Creative Commons license page](https://creativecommons.org/licenses/by-nc-sa/4.0/).

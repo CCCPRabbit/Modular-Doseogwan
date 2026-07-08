@@ -1,0 +1,105 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "46641036-ce26-4587-a492-6a0a9344bcae")
+	(paper "A4")
+	(title_block
+		(title "Amplifier Audio")
+		(date "2026-05-09")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 91.44 86.36)
+		(size 15.24 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60b71d55-541c-4483-93eb-45acc2d2f13c")
+		(property "Sheetname" "PAM8302"
+			(at 91.44 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PAM8302.kicad_sch"
+			(at 91.44 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN+" input
+			(at 91.44 91.44 180)
+			(uuid "dcf88a85-494d-4dbc-a23e-eaa0550bf454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-" input
+			(at 91.44 93.98 180)
+			(uuid "ee4f2643-6d74-4ed0-99b4-967386cfb2a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT+" output
+			(at 106.68 91.44 0)
+			(uuid "13e67d62-3f6a-4096-ac0b-0af6faef9a75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT-" output
+			(at 106.68 93.98 0)
+			(uuid "07ca511c-4bb2-45ab-b63d-0058843900cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD" input
+			(at 91.44 88.9 180)
+			(uuid "6d913592-9446-4807-8f38-f191e2454f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Modular_Doseogwan"
+				(path "/12b89275-ba96-4742-9209-cca9e7e75e0f/cca32103-9706-4607-bb68-80bc1f3a4fee"
+					(page "11")
+				)
+			)
+		)
+	)
+)
